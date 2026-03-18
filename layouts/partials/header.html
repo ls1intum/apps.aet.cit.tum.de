@@ -1,8 +1,8 @@
 <header class="bg-primary text-white shadow-md">
   <div class="container mx-auto px-4 py-4 max-w-6xl flex items-center gap-4">
-    <a href="{{ "/" | relURL }}" class="flex items-center gap-3 hover:opacity-90 transition-opacity">
+    <a href="{{ .Site.BaseURL }}" class="flex items-center gap-3 hover:opacity-90 transition-opacity">
       <img
-        src="{{ "/logos/AET-Logo-light.svg" | relURL }}"
+        src="{{ "logos/AET-Logo-light.svg" | absURL }}"
         alt="AET Logo"
         class="h-10 w-auto"
         onerror="this.style.display='none'"
@@ -13,8 +13,8 @@
       </div>
     </a>
     <nav class="ml-auto flex items-center gap-4 text-sm">
-      <a href="{{ "/" | relURL }}" class="hover:text-blue-200 transition-colors">Home</a>
-      <a href="{{ "/privacy/" | relURL }}" class="hover:text-blue-200 transition-colors">Privacy</a>
+      <a href="{{ .Site.BaseURL }}" class="hover:text-blue-200 transition-colors">Home</a>
+      <a href="{{ "privacy/" | absURL }}" class="hover:text-blue-200 transition-colors">Privacy</a>
     </nav>
   </div>
 </header>
