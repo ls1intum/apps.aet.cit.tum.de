@@ -62,12 +62,14 @@ sections:
         description: "Automated feedback suggestion engine integrated in Artemis. Suggests formative feedback on student submissions to teaching assistants, reduces repetitive grading burden, and improves assessment quality over time."
         links:
           repo: "https://github.com/ls1intum/edutelligence"
+          docs: "https://ls1intum.github.io/edutelligence/athena/"
 
       - name: "Atlas"
-        description: "Centralised user management and authentication service for AET apps. Provides single sign-on, role-based access control, and user data management across the AET ecosystem."
+        description: "Atlas enhances higher education by integrating GenAI-driven adaptive learning into Artemis. It personalizes learning for students and eases the burden on educators supporting large, diverse cohorts."
+        logo: "/logos/atlas.svg"
         links:
           repo: "https://github.com/ls1intum/edutelligence"
-          docs: ""
+          docs: "https://ls1intum.github.io/edutelligence/atlas/"
           tool: ""
 
       - name: "Apollon"
