@@ -1,0 +1,17 @@
+{{ define "main" }}
+  {{ range $.Site.Data.apps.sections }}
+  <section class="mb-14">
+    <div class="mb-6">
+      <h2 class="text-2xl font-semibold text-slate-900">{{ .name }}</h2>
+      {{ with .description }}
+      <p class="mt-1 text-slate-500">{{ . }}</p>
+      {{ end }}
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {{ range .apps }}
+        {{ partial "app-card.html" . }}
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+{{ end }}

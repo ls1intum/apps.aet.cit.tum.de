@@ -1,0 +1,21 @@
+sections:
+  - name: "Learning & Teaching Tools"
+    description: "Applications supporting active learning and formative assessment"
+    apps:
+      - name: "Example Tool"
+        logo: "/logos/placeholder.svg"
+        description: "A short description of what this tool does and who it is for."
+        links:
+          tool: "https://example.aet.cit.tum.de"
+          docs: "https://docs.example.aet.cit.tum.de"
+          repo: "https://github.com/ls1intum/example"
+
+  - name: "Assessment & Feedback"
+    description: "Tools for automated assessment and personalised feedback"
+    apps:
+      - name: "Another App"
+        logo: "/logos/placeholder.svg"
+        description: "Replace this placeholder with a real app entry once the site is live."
+        links:
+          tool: "https://another.aet.cit.tum.de"
+          repo: "https://github.com/ls1intum/another"

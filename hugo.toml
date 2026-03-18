@@ -1,0 +1,7 @@
+baseURL = "https://apps.aet.cit.tum.de/"
+title   = "AET Apps"
+languageCode = "en-us"
+enableRobotsTXT = true
+
+[build]
+  writeStats = true
