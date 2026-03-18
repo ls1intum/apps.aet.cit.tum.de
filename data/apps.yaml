@@ -1,21 +1,60 @@
 sections:
-  - name: "Learning & Teaching Tools"
-    description: "Applications supporting active learning and formative assessment"
+  - name: "Apps"
+    description: "Tools developed by AET for teaching, learning, and academic administration"
     apps:
-      - name: "Example Tool"
-        logo: "/logos/placeholder.svg"
-        description: "A short description of what this tool does and who it is for."
+      - name: "Artemis"
+        logo: "/logos/artemis.svg"
+        description: "Interactive learning platform with automated feedback for programming, quiz, modeling, text, and file-upload exercises. Supports exam management, plagiarism detection, learning analytics, and LTI integration."
         links:
-          tool: "https://example.aet.cit.tum.de"
-          docs: "https://docs.example.aet.cit.tum.de"
-          repo: "https://github.com/ls1intum/example"
+          tool: "https://artemis.tum.de"
+          docs: "https://docs.artemis.tum.de"
+          repo: "https://github.com/ls1intum/Artemis"
 
-  - name: "Assessment & Feedback"
-    description: "Tools for automated assessment and personalised feedback"
-    apps:
-      - name: "Another App"
-        logo: "/logos/placeholder.svg"
-        description: "Replace this placeholder with a real app entry once the site is live."
+      - name: "Thesis Management"
+        logo: "/logos/thesis-management.svg"
+        description: "End-to-end thesis lifecycle management for professors and students. Professors post topics and manage applications; students browse and submit proposals. Unified dashboard tracks progress, deadlines, presentations, and feedback."
         links:
-          tool: "https://another.aet.cit.tum.de"
-          repo: "https://github.com/ls1intum/another"
+          tool: "https://thesis.aet.cit.tum.de"
+
+      - name: "TUM Apply"
+        logo: "/logos/tum-apply.svg"
+        description: "Modern, inclusive application portal for doctoral candidates. Professors publish and manage positions; applicants search, submit, and track materials online. Role-aware workflows ensure transparency and clarity for all parties."
+        links:
+          tool: "https://tumapply.aet.cit.tum.de"
+
+      - name: "Hephaestus"
+        description: "Process-aware platform for agile software development teams. Monitors team activity, delivers AI-guided recommendations based on repository data, visualises engagement via leaderboards, and supports structured reflective standups."
+        links:
+          tool: "https://hephaestus.aet.cit.tum.de"
+
+      - name: "Prompt"
+        logo: "/logos/prompt.svg"
+        description: "Modular, scalable management platform for project-based teaching. Configures course phases, automates team matching and project assignments, tracks student progress, and supports multi-stage grading including peer and self-assessment."
+        links:
+          tool: "https://prompt.aet.cit.tum.de"
+          repo: "https://github.com/ls1intum/prompt2"
+
+      - name: "EduIDE"
+        logo: "/logos/eduide.svg"
+        description: "Browser-based, language-specific IDE environments for computer science education. Eliminates local installation by providing pre-configured editors with compilers, language servers, and linters for Java, Python, C, Rust, and more. Integrates with Artemis."
+        links:
+          repo: "https://github.com/EduIDE/EduIDE"
+
+      - name: "StudiAssist"
+        description: "AI-powered chatbot and email system for university advising teams. Answers recurring student questions 24/7 via website chat and automated email, grounded in verified FAQs and official university documents."
+        links:
+          tool: "https://chatbot.ase.cit.tum.de"
+          repo: "https://github.com/ls1intum/AngelosAI"
+
+  - name: "Supporting Services"
+    description: "AI-powered and infrastructure services that back the AET app ecosystem"
+    apps:
+      - name: "Iris"
+        description: "AI-powered virtual tutor integrated in Artemis. Answers student questions in real time without revealing solutions, proactively nudges students toward next steps, and generates hints and scaffolded feedback automatically."
+        links:
+          repo: "https://github.com/ls1intum/edutelligence"
+
+      - name: "Athena"
+        description: "Automated feedback suggestion engine integrated in Artemis. Suggests formative feedback on student submissions to teaching assistants, reduces repetitive grading burden, and improves assessment quality over time."
+        links:
+          repo: "https://github.com/ls1intum/edutelligence"
