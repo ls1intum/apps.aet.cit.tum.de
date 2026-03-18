@@ -16,7 +16,7 @@ npm install
 npm run dev        # http://localhost:1313
 ```
 
-Use `npm run dev` (not bare `hugo server`) so that `node_modules/.bin` is on PATH and PostCSS can find the `postcss` CLI.
+Use `npm run dev` (not bare `hugo server`) for two reasons: it puts `node_modules/.bin` on PATH so PostCSS is found, and it passes `--baseURL http://localhost:1313/` so the site is served at the root instead of the GitHub Pages subpath.
 
 ## Build
 

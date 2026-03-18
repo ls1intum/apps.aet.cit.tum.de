@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "hugo --minify",
-    "dev": "hugo server"
+    "dev": "hugo server --baseURL http://localhost:1313/"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.13",
