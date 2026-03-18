@@ -1,4 +1,4 @@
-baseURL = "https://apps.aet.cit.tum.de/"
+baseURL = "https://ls1intum.github.io/apps.aet.cit.tum.de/"
 title   = "AET Apps"
 languageCode = "en-us"
 enableRobotsTXT = true
