@@ -32,13 +32,17 @@ sections:
         description: "Modular, scalable management platform for project-based teaching. Configures course phases, automates team matching and project assignments, tracks student progress, and supports multi-stage grading including peer and self-assessment."
         links:
           tool: "https://prompt.aet.cit.tum.de"
-          repo: "https://github.com/ls1intum/prompt2"
+          repo: "https://github.com/prompt-edu/prompt"
+          docs: "https://prompt-edu.github.io/prompt/"
 
       - name: "EduIDE"
         logo: "/logos/eduide.svg"
         description: "Browser-based, language-specific IDE environments for computer science education. Eliminates local installation by providing pre-configured editors with compilers, language servers, and linters for Java, Python, C, Rust, and more. Integrates with Artemis."
         links:
+          tool: "https://theia.artemis.cit.tum.de"
           repo: "https://github.com/EduIDE/EduIDE"
+          docs: "https://eduide.github.io/Docs/"
+
 
       - name: "StudiAssist"
         description: "AI-powered chatbot and email system for university advising teams. Answers recurring student questions 24/7 via website chat and automated email, grounded in verified FAQs and official university documents."
@@ -58,3 +62,18 @@ sections:
         description: "Automated feedback suggestion engine integrated in Artemis. Suggests formative feedback on student submissions to teaching assistants, reduces repetitive grading burden, and improves assessment quality over time."
         links:
           repo: "https://github.com/ls1intum/edutelligence"
+
+      - name: "Atlas"
+        description: "Centralised user management and authentication service for AET apps. Provides single sign-on, role-based access control, and user data management across the AET ecosystem."
+        links:
+          repo: "https://github.com/ls1intum/edutelligence"
+          docs: ""
+          tool: ""
+
+      - name: "Apollon"
+        description: "TBA"
+        links:
+          tool: "https://apollon.aet.cit.tum.de"
+          repo: "https://github.com/ls1intum/apollon"
+          docs: ""
+
