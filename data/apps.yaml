@@ -73,7 +73,7 @@ sections:
           tool: ""
 
       - name: "Apollon"
-        description: "TBA"
+        description: "Apollon is a flexible modeling editor for creating diagrams with keyboard support and auto-layout features, operating standalone or seamlessly integrating into platforms like Artemis"
         links:
           tool: "https://apollon.aet.cit.tum.de"
           repo: "https://github.com/ls1intum/apollon"
