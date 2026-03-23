@@ -1,4 +1,11 @@
 {{ define "main" }}
+  <div class="mb-12 bg-white rounded-lg border border-border shadow-card px-6 py-5 flex items-center gap-4">
+    <div class="text-primary flex-shrink-0">{{ partial "icons/github.html" . }}</div>
+    <div>
+      <p class="font-semibold text-slate-900">Free to use. Open to everyone.</p>
+      <p class="text-sm text-slate-500 mt-0.5">We develop all our tools openly on GitHub and offer them free of charge to every TUM student and employee.</p>
+    </div>
+  </div>
   {{ range $.Site.Data.apps.sections }}
   <section class="mb-14">
     <div class="mb-6">
