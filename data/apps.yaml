@@ -50,6 +50,14 @@ sections:
           tool: "https://chatbot.ase.cit.tum.de"
           repo: "https://github.com/ls1intum/AngelosAI"
 
+      - name: "Apollon"
+        description: "Apollon is a flexible modeling editor for creating diagrams with keyboard support and auto-layout features, operating standalone or seamlessly integrating into platforms like Artemis"
+        links:
+          tool: "https://apollon.aet.cit.tum.de"
+          repo: "https://github.com/ls1intum/apollon"
+          docs: ""
+
+
   - name: "Supporting Services"
     description: "AI-powered and infrastructure services that back the AET app ecosystem"
     apps:
@@ -71,11 +79,3 @@ sections:
           repo: "https://github.com/ls1intum/edutelligence"
           docs: "https://ls1intum.github.io/edutelligence/atlas/"
           tool: ""
-
-      - name: "Apollon"
-        description: "Apollon is a flexible modeling editor for creating diagrams with keyboard support and auto-layout features, operating standalone or seamlessly integrating into platforms like Artemis"
-        links:
-          tool: "https://apollon.aet.cit.tum.de"
-          repo: "https://github.com/ls1intum/apollon"
-          docs: ""
-
