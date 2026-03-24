@@ -62,6 +62,7 @@ sections:
     description: "AI-powered and infrastructure services that back the AET app ecosystem"
     apps:
       - name: "Iris"
+        logo: "/logos/iris.png"
         description: "AI-powered virtual tutor integrated in Artemis. Answers student questions in real time without revealing solutions, proactively nudges students toward next steps, and generates hints and scaffolded feedback automatically."
         links:
           repo: "https://github.com/ls1intum/edutelligence"
