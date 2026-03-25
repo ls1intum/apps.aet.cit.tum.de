@@ -15,12 +15,15 @@ sections:
         description: "End-to-end thesis lifecycle management for professors and students. Professors post topics and manage applications; students browse and submit proposals. Unified dashboard tracks progress, deadlines, presentations, and feedback."
         links:
           tool: "https://thesis.aet.cit.tum.de"
+          repo: "https://github.com/ls1intum/thesis-management"
 
       - name: "TUM Apply"
         logo: "/logos/tum-apply.svg"
         description: "Modern, inclusive application portal for doctoral candidates. Professors publish and manage positions; applicants search, submit, and track materials online. Role-aware workflows ensure transparency and clarity for all parties."
         links:
           tool: "https://tumapply.aet.cit.tum.de"
+          repo: "https://github.com/ls1intum/tum-apply"
+          docs: "https://ls1intum.github.io/tum-apply/"
 
       - name: "Hephaestus"
         description: "Process-aware platform for agile software development teams. Monitors team activity, delivers AI-guided recommendations based on repository data, visualises engagement via leaderboards, and supports structured reflective standups."
