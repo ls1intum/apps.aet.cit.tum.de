@@ -16,6 +16,7 @@ sections:
         links:
           tool: "https://thesis.aet.cit.tum.de"
           repo: "https://github.com/ls1intum/thesis-management"
+          docs: "https://github.com/ls1intum/thesis-management?tab=readme-ov-file#user-documentation"
 
       - name: "TUM Apply"
         logo: "/logos/tum-apply.svg"
