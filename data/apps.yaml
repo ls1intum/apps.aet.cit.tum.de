@@ -83,4 +83,8 @@ sections:
         links:
           repo: "https://github.com/ls1intum/edutelligence"
           docs: "https://ls1intum.github.io/edutelligence/atlas/"
-          tool: ""
+
+      - name: "Logos"
+        description: "LLM Engineering Platform for the AET ecosystem. Provides usage logging, billing, central resource management, policy-based model selection, scheduling, and monitoring across multiple LLM providers."
+        links:
+          repo: "https://github.com/ls1intum/edutelligence/tree/main/logos"
