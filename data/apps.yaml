@@ -51,7 +51,6 @@ sections:
       - name: "StudiAssist"
         description: "AI-powered chatbot and email system for university advising teams. Answers recurring student questions 24/7 via website chat and automated email, grounded in verified FAQs and official university documents."
         links:
-          tool: "https://chatbot.ase.cit.tum.de"
           repo: "https://github.com/ls1intum/AngelosAI"
 
       - name: "Proposal Checker"
