@@ -27,9 +27,12 @@ sections:
           docs: "https://ls1intum.github.io/tum-apply/"
 
       - name: "Hephaestus"
-        description: "Process-aware platform for agile software development teams. Monitors team activity, delivers AI-guided recommendations based on repository data, visualises engagement via leaderboards, and supports structured reflective standups."
+        logo: "/logos/hephaestus.svg"
+        description: "Practice-aware guidance and mentoring for software projects. Hephaestus delivers adaptive feedback in context, supports continuous learning, and helps people and teams build stronger engineering practices over time."
         links:
           tool: "https://hephaestus.aet.cit.tum.de"
+          docs: "https://ls1intum.github.io/Hephaestus/"
+          repo: "https://github.com/ls1intum/Hephaestus"
 
       - name: "Prompt"
         logo: "/logos/prompt.svg"
